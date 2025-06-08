@@ -31,9 +31,3 @@ This project is a **Portfolio Generator** that allows users to sign up, log in u
   - Twilio (for SMS OTPs)
 - **Database**: (e.g., MongoDB / MySQL / PostgreSQL — mention your DB)
 
-## 📦 Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/portfolio-generator.git
-   cd portfolio-generator
