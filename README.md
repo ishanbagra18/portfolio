@@ -20,6 +20,7 @@ This project is a **Portfolio Generator** that allows users to sign up, log in u
     - Education
     - Experience
     - Contact Information
+    - and many more.....
   - Automatically generates a professional portfolio from the submitted data.
 
 ## 🛠️ Technologies Used
@@ -29,5 +30,5 @@ This project is a **Portfolio Generator** that allows users to sign up, log in u
 - **Authentication**:
   - Nodemailer (for email OTPs)
   - Twilio (for SMS OTPs)
-- **Database**: (e.g., MongoDB / MySQL / PostgreSQL — mention your DB)
+- **Database**: (e.g., MongoDB )
 
