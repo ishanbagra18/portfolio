@@ -1,0 +1,165 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('https://plus.unsplash.com/premium_photo-1679784157152-87caa598bacb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YmxhY2t8ZW58MHwwfDB8fHww') no-repeat center center;
+  background-size: cover;
+  background-color: black;
+  background-attachment: fixed; /* Enables the parallax effect */
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  padding: 20px;
+}
+
+/* Fallback for Mobile Devices */
+@media (max-width: 768px) {
+  .hero-section {
+    background-attachment: scroll; /* Fix for mobile as fixed doesn't work well */
+  }
+}
+
+
+/* LOGO */
+.hero-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 500;
+}
+
+.hero-logo img {
+  width: 50px; /* Smaller for mobile */
+  height: 50px;
+
+}
+
+
+.hero-logo h1 {
+  color: aliceblue;
+}
+
+@media (min-width: 768px) { 
+  .hero-logo img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* MAIN HEADING */
+.hero-mainheading {
+  font-size: 6vw; /* Responsive text size */
+  font-weight: bold;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid white;
+  width: 0;
+  display: inline-block;
+  animation: typing 3s steps(30, end) forwards, blink 0.8s infinite;
+}
+
+/* Typing Effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Cursor Blinking Effect */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* PARAGRAPH */
+.hero-paragraph {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #68d868;
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.7);
+  margin-top: 10px;
+}
+
+/* IMAGE */
+.heroimage {
+  position: absolute;
+  height: 40vw;
+  width: 40vw;
+  max-height: 500px;
+  max-width: 500px;
+  right: 0;
+  bottom: 50px;
+  z-index: -1;
+}
+
+/* RESPONSIVE IMAGE SIZES */
+@media (max-width: 768px) {
+  .heroimage {
+    height: 50vw;
+    width: 50vw;
+    right: 5px;
+  }
+
+  .hero-mainheading {
+    font-size: 10vw;
+  }
+
+  .hero-paragraph {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroimage {
+    height: 60vw;
+    width: 60vw;
+  }
+
+  .hero-mainheading {
+    font-size: 12vw;
+  }
+
+  .hero-paragraph {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+.hero-section {
+  position: relative;
+  text-align: center;
+}
+
+/* Logout button inside Hero */
+.hero-logout-btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  background: #0cbb69;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.hero-logout-btn:hover {
+  background: #068047;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 1000px) {
+  .hero-logout-btn {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+}

@@ -1,0 +1,153 @@
+.working
+{
+    background-color: black;
+    min-height: 100vh;
+    background: url('https://media.istockphoto.com/id/1201544779/photo/blank-front-real-black-chalkboard-background-texture-in-college-concept-for-back-to-school.webp?a=1&b=1&s=612x612&w=0&k=20&c=qdObWtZ8mWIb_xGiZuPAOe4cqiA_IgaPxEMInXPvW1Q=') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* Enables the parallax effect */
+}
+
+.working-how {
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px ;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    justify-content: space-between;
+
+}
+
+
+.working-how-one
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 40vw;
+    gap: 10px;
+}
+
+
+.heading1
+{
+    color: white;
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.heading2
+{
+    font-size: 40px;
+}
+
+.working-how-one p
+{
+    color: white;
+    line-height: 25px;
+}
+
+
+.working-how-image {
+    width: 50vw;
+    height: 90vh; /* Adjust height as needed */
+    background-image: url('/working-image.png'); /* Relative path from the public folder */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.featuresection
+{
+    background-color: black;
+    min-height: 100vh;
+    background: url('https://media.istockphoto.com/id/1201544779/photo/blank-front-real-black-chalkboard-background-texture-in-college-concept-for-back-to-school.webp?a=1&b=1&s=612x612&w=0&k=20&c=qdObWtZ8mWIb_xGiZuPAOe4cqiA_IgaPxEMInXPvW1Q=') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* Enables the parallax effect */
+}
+
+
+.featuresectionheading
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 10px;
+    /* border: 1px solid white; */
+    width: 80vw;
+}
+
+.featuresectionheading h1
+{
+    color: white;
+    font-size: 60px;
+}
+
+
+.featuresectionheading p
+{
+
+    font-size: 20px; /* Reduce font size */
+    line-height: 1.2; /* Decrease line height */
+    letter-spacing: -0.2px; /* Slightly reduce letter spacing */
+    color: purple;
+}
+
+
+
+
+.featuresection {
+    padding: 50px 10%;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+
+
+.featuresectionheading p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.5;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.feature-card {
+    background: #222; /* Dark background */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    color: #f1f1f1; /* Light text for contrast */
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    background: #333; /* Slightly lighter dark shade on hover */
+}
+
+.feature-card h3 {
+    font-size: 1.2rem;
+    color: #f8f9fa; /* Light color for better visibility */
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 0.9rem;
+    color: #d1d1d1; /* Softer white for readability */
+}

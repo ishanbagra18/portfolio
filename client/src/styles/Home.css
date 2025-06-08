@@ -1,0 +1,50 @@
+.home {
+  position: relative;
+}
+
+/* General Button Styles */
+.home .btn {
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  padding: 12px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  background: #0cbb69;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.home .btn:hover {
+  background: #068047;
+  transition: all 0.3s;
+}
+
+/* Logout Button (Specific to Hero) */
+.hero-logout-btn {
+  position: relative;
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  background: #d9534f;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.hero-logout-btn:hover {
+  background: #c9302c;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 1000px) {
+  .home .btn {
+    right: 30px;
+  }
+}
